@@ -1,0 +1,114 @@
+:root {
+    --orange: #D09000;
+    --gray: #B0B0B0;
+    --black: black;
+    --blue:#006699;
+    --green: #CCCC66;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    color: var(--gray);
+}
+img{
+    object-fit: cover;
+}
+.btn{
+    color: #fff;
+    background-color: var(--orange);
+    border: none;
+}
+h1{
+    font-size: 2rem;
+    color: var(--orange);
+}
+h2{
+    font-size: 1.75rem;
+    color: var(--orange);
+}
+h3{
+    font-size: 1.5rem;
+    color: var(--orange);
+}
+h4{
+    font-size: 1.25rem;
+    color: var(--orange);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #000;
+}
+.banner{
+    background-image: url("img/Banner.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+.list-card .card{
+    border: none;
+}
+.content .recommend a{
+    text-decoration: underline;
+    display: block;
+    color: var(--blue);
+    white-space: nowrap;       
+    overflow: hidden;           
+    text-overflow: ellipsis;
+}
+.related-posts .related-post-item{
+    margin: 10% 0;
+    border-bottom: 1px solid black;
+}
+.footer-item2 a{
+    color: var(--green);
+}
+.footer-item1-description{
+    background-color: var(--gray);
+    color: var(--black);
+}
+.footer-item1-description b,.footer-item1-description p{
+    color: var(--black);
+}
+.footer-item3 p{
+    border-bottom: 1px solid var(--gray);
+}
+footer{
+    background-color: #000;
+    padding: 8% 0;
+    box-sizing: border-box;
+}
+.footer-item button{
+    background-color: var(--gray);
+}
+
+@media all and (min-width: 768px){
+    .banner{
+       height: 250px;
+
+    }
+  
+}
+@media  all and (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link.active{
+        background-color: var(--orange);
+        color: #fff;
+        border-radius: 5px;
+     }
+     .related-posts .related-post-item{
+        margin: 5% 0;
+        border-bottom: none;
+    }
+    .related-post-item p{
+        border-bottom: 1px solid black;
+    }
+    footer{
+        padding: 2% 0;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+}
