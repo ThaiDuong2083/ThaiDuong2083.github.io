@@ -60,6 +60,9 @@ a:hover{
     overflow: hidden;           
     text-overflow: ellipsis;
 }
+.post, .recommend{
+    width: 100%;
+}
 .related-posts .related-post-item{
     margin: 10% 0;
     border-bottom: 1px solid black;
@@ -110,5 +113,11 @@ footer{
         padding: 2% 0;
         margin-left: 0!important;
         margin-right: 0!important;
+    }
+    .post{
+        width: 58.334%;
+    }
+    .recommend{
+        width: 41.666%;
     }
 }
